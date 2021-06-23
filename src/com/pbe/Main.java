@@ -86,6 +86,22 @@ import graphics.*;
 // Once imported, the static members can be used without qualification. For example: double r = cos(PI * theta);
 // Use of static does make code more difficult to read and maintain, because it's hard to know which class defines a particular static object.
 
+// Packages and Member access
+// Classes and packages are both means of encapsulating and containing the name space and scope of variables and methods.
+// Packages act as containers for classes and subpackages.
+// Classes, Java's smallest unit of abstraction, act as containers for data and code.
+// Java knows four categories of visibility for class members:
+// 1. Subclasses in the same package
+// 2. Non-subclasses in the same package
+// 3. Subclasses in different packages
+// 4. Classes that are neither in the same package nor subclasses
+
+// Private: Anything declared private cannot be seen outside of its class
+// Public: Anything declared public can be accesses from different classes and different packages
+// Protected: Visible to (sub)classes in own package as well as different package subclasses.
+// No modifier: Members without a specific access specification (private, protected, public) is visible to (sub)classes in the same package. This is the default.
+
+
 public class Main {
 
     public static void main(String[] args) {
